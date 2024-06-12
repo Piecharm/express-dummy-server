@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Our in-memory store
 const dataStore = {
-    users: [{ id: "1", firstName: "Itachi", lastName: "Uchiha", age: 15, gender: "male", country: "INDIA" }],
+    users: [{ id: "1", firstName: "Deepa", lastName: "Ghobade", age: 15, gender: "female", country: "INDIA" }],
 };
 
 // Endpoint to add or update data
